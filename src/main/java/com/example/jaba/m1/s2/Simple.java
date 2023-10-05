@@ -22,7 +22,8 @@ public class Simple {
     public static void main(String[] args) {
         // output a string to console
         System.out.print("Hello ");
-
+        System.out.println("Modificato e committato");
+        
         // output is based on input arguments
         if (args.length == 1) {
             System.out.println(args[0]);
